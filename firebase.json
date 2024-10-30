@@ -1,0 +1,29 @@
+{
+  "flutter": {
+    "platforms": {
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "g-form-exo-web-gdgocucb",
+          "configurations": {
+            "web": "1:1025651774901:web:edd5889d2fe2b911ceb5fc"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "site": "g-form-exo-web-gdgocucb",
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
